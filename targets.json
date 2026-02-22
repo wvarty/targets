@@ -3851,7 +3851,7 @@
                 "product_name": "TD Test TX - DO NOT USE",
                 "lua_name": "TD TEST TX",
                 "layout_file": "TD test.json",
-                "upload_methods": ["uart", "wifi", "etx"],
+                "upload_methods": ["uart", "wifi"],
                 "min_version": "3.4.0",
                 "platform": "esp32-s3",
                 "firmware": "Unified_ESP32S3_2400_TX"
