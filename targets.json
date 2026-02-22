@@ -3847,14 +3847,25 @@
     "titan_dynamics": {
         "name": "Titan Dynamics",
         "tx_dual": {
-            "nomad": {
-                "product_name": "TD Test - DO NOT USE",
-                "lua_name": "TD Test X-Band",
+            "td_tx": {
+                "product_name": "TD Test TX - DO NOT USE",
+                "lua_name": "TD TEST TX",
                 "layout_file": "TD test.json",
-                "upload_methods": ["uart", "wifi"],
+                "upload_methods": ["uart", "wifi", "etx"],
                 "min_version": "3.4.0",
-                "platform": "esp32",
-                "firmware": "Unified_ESP32_LR1121_TX"
+                "platform": "esp32-s3",
+                "firmware": "Unified_ESP32S3_2400_TX"
+            }
+        },
+        "rx_2400": {
+            "td_rx": {
+                "product_name": "TD Test RX - DO NOT USE",
+                "lua_name": "TD TEST RX",
+                "layout_file": "TD test RX.json",
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "min_version": "3.5.0",
+                "platform": "esp32-s3",
+                "firmware": "Unified_ESP32S3_2400_RX"
             }
         }
     },
