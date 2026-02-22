@@ -3844,6 +3844,20 @@
             }
         }
     },
+    "titan_dynamics": {
+        "name": "Titan Dynamics",
+        "tx_dual": {
+            "nomad": {
+                "product_name": "TD Test - DO NOT USE",
+                "lua_name": "TD Test X-Band",
+                "layout_file": "TD test.json",
+                "upload_methods": ["uart", "wifi"],
+                "min_version": "3.4.0",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_LR1121_TX"
+            }
+        }
+    },
     "tunerc": {
         "name": "TuneRC",
         "rx_2400": {
