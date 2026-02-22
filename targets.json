@@ -3846,7 +3846,7 @@
     },
     "titan_dynamics": {
         "name": "Titan Dynamics",
-        "tx_dual": {
+        "tx_2400": {
             "td_tx": {
                 "product_name": "TD Test TX - DO NOT USE",
                 "lua_name": "TD TEST TX",
